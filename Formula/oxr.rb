@@ -5,26 +5,26 @@
 class Oxr < Formula
   desc "Semantic-version bump and git-tag orchestrator for manifest-less repos"
   homepage "https://github.com/oxHive/oxr"
-  url "https://github.com/oxHive/oxr/archive/refs/tags/v0.1.0-rc.8.tar.gz"
-  sha256 "8b843ecdeed3aaae33a3d48713766916ee9d62b61ca67d3a344130294deef317"
+  url "https://github.com/oxHive/oxr/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "ba7c76376701163bee8d5adaa4b055ddc7e2321b025e5b1ea7e6e0f4bb4d0063"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/oxHive/oxr/releases/download/v0.1.0-rc.8/oxr-0.1.0-rc.8-darwin-arm64.tar.gz"
-      sha256 "52d9224d621f3d092a9769b3899cbce75c0bf4ed933439c7850707f2f6c82d69"
+      url "https://github.com/oxHive/oxr/releases/download/v0.1.0/oxr-0.1.0-darwin-arm64.tar.gz"
+      sha256 "d274fe1c6a23c3ef613e42b868eb23e0c22b5e5c56b2e88f4c78c0b7d2b7a8f8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/oxHive/oxr/releases/download/v0.1.0-rc.8/oxr-0.1.0-rc.8-linux-amd64.tar.gz"
-      sha256 "eba9819adbb7c620218305ab09ba6853f504d45825301fd303c97167ad12f147"
+      url "https://github.com/oxHive/oxr/releases/download/v0.1.0/oxr-0.1.0-linux-amd64.tar.gz"
+      sha256 "21e81ce9b6127804ae9c100bb011d8b163c2e1defc5ebb6aff50e8045a2fb9e4"
     end
 
     on_arm do
-      url "https://github.com/oxHive/oxr/releases/download/v0.1.0-rc.8/oxr-0.1.0-rc.8-linux-arm64.tar.gz"
-      sha256 "5e3f18156f39dd2fe8b1ca4b21e230042be316053b886cc881382aef4908d809"
+      url "https://github.com/oxHive/oxr/releases/download/v0.1.0/oxr-0.1.0-linux-arm64.tar.gz"
+      sha256 "0dce60464655aaab62cfa87fdfdf31b44bb73afc2fc263bc5d56b8c926874386"
     end
   end
 
