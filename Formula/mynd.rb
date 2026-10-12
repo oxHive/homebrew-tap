@@ -5,26 +5,26 @@
 class Mynd < Formula
   desc "Persistent memory mcp server for ai coding agents. injects project context at se"
   homepage "https://github.com/oxHive/mynd"
-  url "https://github.com/oxHive/mynd/archive/refs/tags/v0.17.1.tar.gz"
-  sha256 "771dd1c790bfc468155670f2f4a315286f28cb389ca6946fb7a9a9263df01846"
+  url "https://github.com/oxHive/mynd/archive/refs/tags/v0.18.0.tar.gz"
+  sha256 "b9fe680f90a6bd76c65f1bb22bf6080aafb442d063e4e0ad7451430523375bac"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/oxHive/mynd/releases/download/v0.17.1/mynd-0.17.1-darwin-arm64.tar.gz"
-      sha256 "97182ad7bc909e3d5569f67dbe845816b24c85c0afe10334bd2c4859d1f2e156"
+      url "https://github.com/oxHive/mynd/releases/download/v0.18.0/mynd-0.18.0-darwin-arm64.tar.gz"
+      sha256 "1aec6c3ce128790078c355902b9e85f7342313cfa90201eb7047ecb5af1e6f77"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/oxHive/mynd/releases/download/v0.17.1/mynd-0.17.1-linux-amd64.tar.gz"
-      sha256 "0cf53771cb5127d8ff8a92e76285e2f15f0177a6955cac55dc6e421c38400aaa"
+      url "https://github.com/oxHive/mynd/releases/download/v0.18.0/mynd-0.18.0-linux-amd64.tar.gz"
+      sha256 "b2e3ca4b6db1c8ee62a6bdcf315dbaf2951e3792fc6e306081098d01580fae01"
     end
 
     on_arm do
-      url "https://github.com/oxHive/mynd/releases/download/v0.17.1/mynd-0.17.1-linux-arm64.tar.gz"
-      sha256 "87d2d0d3735e7b8a49a6d127e1e2c29b48c3857756ced29c8953cc7755f599c1"
+      url "https://github.com/oxHive/mynd/releases/download/v0.18.0/mynd-0.18.0-linux-arm64.tar.gz"
+      sha256 "b59b6848d8d72db1a8500c383a806d4a5b24cb91cc1933023edc7eaf22968cc2"
     end
   end
 
